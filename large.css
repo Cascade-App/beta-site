@@ -8,12 +8,6 @@ body{
   margin: 0px;
 }
 
-@font-face {
-font-family: CircularStd-Bold;
-src: url("assets/CircularStd-Bold.otf") format("opentype");
-}
-
-
 #bg{
   height: 100%;
   width: 100%;
@@ -37,7 +31,7 @@ src: url("assets/CircularStd-Bold.otf") format("opentype");
   align-items: center;
 
   text-align: center;
-  font-family: 'Source Sans Pro', Helvetica;
+  font-family:  'Source Sans Pro', Helvetica;
 
   background: #0893FF;
   border-radius: 2%;

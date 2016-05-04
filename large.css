@@ -8,6 +8,12 @@ body{
   margin: 0px;
 }
 
+@font-face {
+font-family: CircularStd-Bold;
+src: url("assets/CircularStd-Bold.otf") format("opentype");
+}
+
+
 #bg{
   height: 100%;
   width: 100%;

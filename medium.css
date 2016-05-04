@@ -6,6 +6,7 @@ body{
   height: 100vh;
   width: 100vw;
   margin: 0px;
+  font-size: 2.2vh;
 }
 
 #bg{
@@ -41,7 +42,7 @@ body{
 }
 
 #title{
-  width: 70%;
+  width: 75%;
 }
 
 #heading{
@@ -50,7 +51,7 @@ body{
 
 #subHeading{
 
-  font-size: 2.2vh;
+  font-size: 4vw;
   font-weight: lighter;
   color: #addaff;
 }
@@ -112,7 +113,7 @@ p#subHeading{
   padding: 5px 10px;
 
   color: white;
-  font-size: 1.5vh;
+  font-size: 2vh;
 }
 
 #submit:hover{

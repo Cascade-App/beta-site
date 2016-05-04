@@ -17,7 +17,7 @@ body{
   justify-content: center;
   align-items: center;
 
-  background-image: url("assets/waterfall2.jpg");
+  background-image: url("assets/waterfall2Small.jpg");
   background-color: #0893FF;
   background-size: cover;
 }
@@ -136,4 +136,5 @@ p#subHeading{
 
 footer{
   color: #addaff;
+  padding-top: 50px;
 }

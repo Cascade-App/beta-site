@@ -7,12 +7,12 @@
   <title>Cascade: Communication and File Collaboration, Together at Last</title>
   <meta name="description" content="Cascade improves your team's workflow by bringing communication and file collaboration into the same context.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <link rel="icon" type="image/png" href="assets/fav196.png" sizes="196x196" />
   <link rel="icon" type="image/png" href="assets/fav32.png" sizes="32x32" />
+  <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' rel='stylesheet' type='text/css'/>
   <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600' rel='stylesheet' type='text/css'>
-  <link rel='stylesheet' href='large.css' media="(min-aspect-ratio: 1/1)" />
-  <link rel='stylesheet' href='medium.css' media="(max-aspect-ratio: 1/1)"  />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+  <link href='index.css' rel='stylesheet' type='text/css' />
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -25,31 +25,215 @@
 </script>
 </head>
 <body>
-  <div id='bg'>
-    <div id='box'>
-      <img id='logo' src='assets/logo.png' />
-      <div id='title'>
-        <img id='heading' src='assets/intro.svg' />
-        <p id='subHeading'>
-          increasing project flow (and sanity)
-        </p>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="/">
+          Cascade
+        </a>
       </div>
-      <p id='description'>
-        Sick of terrible file collaboration and communication flows? Toss us your email to be the first to recieve beta access when it launches. Peace.
-      </p>
-      <div>
-        <div id='input'>
-          <a href='https://cascade1.typeform.com/to/dnO7aQ' id='submit'>Register for Beta</a>
+      <div class="collapse navbar-collapse" id="navRight">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a class="navLink" href="#"> <span color="white">About</span></a>
+          </li>
+          <li>
+            <a class="navLink" href="#"><span color="white">Contact</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section class="container-fluid" id="title">
+      <div  class="row">
+        <div class="col-md-12 center" id="logo">
+          <img src="assets/titleLogoV2.png" id='titleLogo'/>
         </div>
-        <p id='info'>
-          Questions, comments, press? <a href='mailto:info@cascadeapp.io'>info@cascadeapp.io</a>
-        </p>
       </div>
-      <footer>
-        	&copy; 2016 Cascade
-      </footer>
+      <div class="row">
+        <div class="col-md-12 center">
+          <div id="subHeadingContainer">
+            <h2 id="subHeading">Team Collaboration for the 21st Century</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+
+        </div>
+        <div class="col-sm-6 center">
+          <p id="betaDescription">
+            The wait is over. Download the Cascade Beta today!
+          </p>
+        </div>
+        <div class="col-sm-3">
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 center" id="downloadContainer">
+            <a href='https://cascade1.typeform.com/to/dnO7aQ' id="download">Download Beta</a>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4 center iconSection center">
+            <div class="icon">
+              <i class="fa fa-refresh"></i>
+            </div>
+            <div class="iconDescription">
+              <p>
+                Sync across your devices with all of your teamates.
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-4 center iconSection center">
+            <div class="icon">
+              <i class="fa fa-file-o"></i>
+            </div>
+            <div class="iconDescription">
+              <p>
+                Work on your files in a native context.
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-4 center iconSection center">
+            <div class="icon">
+              <i class="fa fa-comments-o"></i>
+            </div>
+            <div class="iconDescription">
+              <p>
+                Communicate about what you're working on.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <section class="container-fluid" id="about">
+    <div class="row" id="videoContainer">
+      <div class="col-lg-6 center" id="videoDescription">
+        <div class="center" id="videoBoxContainer">
+          <div class="center" id="videoBox">
+            <h2>How does it work?</h2>
+            <p id="videoParagraph">
+              This is a quick awesome description of what will happen with Cascade
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 center">
+        <div id="youtube">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/P5PgsHBfiPk" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container-fluid" id="info">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3">
+
+        </div>
+        <div class="col-sm-6 center">
+          <p id="titleDescription">
+            Whether you are working on complex engineering and CAD files or intricate office projects, Cascade allows you to work in the native environment you are used to.
+          </p>
+        </div>
+        <div class="col-sm-3">
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+
+        </div>
+        <div class="col-sm-4">
+          <div id="logosContainer">
+            <img src="assets/matlab.png" class="platform" alt="matlab"/>
+            <img src="assets/excel.png" class="platform" alt="excel" />
+            <img src="assets/autocad.png" class="platform" alt="autocad" />
+            <img src="assets/word.png" class="platform" alt="word" />
+          </div>
+        </div>
+        <div class="col-sm-4">
+
+        </div>
+      </div>
+    <div class="row" id="info1">
+      <div class="col-md-2">
+
+      </div>
+      <div class="col-md-8 infoContainer center">
+        <div class="descriptionContainer">
+          <h3 class="descriptionHeader">
+            All of Your Files in One Place
+          </h3>
+          <p class="descriptionText">
+            Cascade integrates with the storage solutions you already use such as DropBox, Google Drive &amp; local servers to bring all of your files under one platform.
+          </p>
+        </div>
+        <div class="descriptionImageContainer right">
+          <img class="descriptionImage" src="assets/info1.png" />
+        </div>
+      </div>
+      <div class="col-md-2">
+
+      </div>
+    </div>
+    <div class="row" id="info2">
+      <div class="col-md-2">
+
+      </div>
+      <div class="col-md-8 infoContainer center info2">
+        <div class="descriptionImageContainer left">
+          <img class="descriptionImage" src="assets/info2.png" />
+        </div>
+        <div class="descriptionContainer">
+          <h3 class="descriptionHeader">
+            Communication &amp; Content Together at Last
+          </h3>
+          <p class="descriptionText">
+            Other platforms are built around either team messaging OR content. Cascade brings these two together by forming messaging channels around people, folders AND files.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-2">
+
+      </div>
+    </div>
+    <div class="row" id="info3">
+      <div class="col-md-2">
+
+      </div>
+      <div class="col-md-8 infoContainer center info2">
+        <div class="descriptionContainer">
+          <h3 class="descriptionHeader">
+            Say Goodbye to Uploads &amp; Downloads
+          </h3>
+          <p class="descriptionText">
+            Instantly open every file and work on it in the native environment without having to wait for downloads. Works for all file types &amp; environments.
+          </p>
+        </div>
+        <div class="descriptionImageContainer right">
+          <img class="descriptionImage" src="assets/info3.png" />
+        </div>
+      </div>
+      <div class="col-md-2">
+      </div>
     </div>
   </div>
+  </section>
+  <footer>
+    <div>
+      <h4 id="footerText">© 2016 Cascade</h4>
+    </div>
+    <div>
+      <a href="mailto:info@cascadeapp.io"><h4>info@cascadeapp.io</h4></a>
+    </div>
+  </footer>
+  <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+  <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
   <script src='main.js'></script>
 </body>
 </html>

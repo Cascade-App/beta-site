@@ -31,16 +31,13 @@ body{
   margin-bottom: 0px;
 }
 
-.navbar-brand{
+.navbar-brand, .navbar-brand:visited{
   color: white;
   padding-left: 20px;
   font-size: 25px;
 }
 .navbar .navbar-brand:hover{
   color: #cee9ff;
-}
-.navbar-brand:visited{
-  color: white;
 }
 
 #navRight {
@@ -169,7 +166,7 @@ body{
   padding-bottom: 80px;
 }
 
-#videoContainer {
+#details {
   background-image: url("assets/waterfall2xSmall.jpg");
   background-color: #0893FF;
   background-size: cover;
@@ -194,7 +191,7 @@ body{
 }
 
 #videoParagraph {
-  width: 300px;
+  width: 400px;
   padding: 15px;
   text-align: center;
 }

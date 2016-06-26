@@ -12,6 +12,10 @@ body{
   font-weight: lighter;
 }
 
+#titleText.overide:focus {
+  color: white !important;
+}
+
 .center {
   display: flex;
   align-items: center;
